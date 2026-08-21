@@ -1,0 +1,221 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,
+body,
+[class*="css"] {
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+/* Background */
+
+.stApp{
+
+background:#0F172A;
+
+color:white;
+
+}
+
+/* Hide Streamlit */
+
+#MainMenu{
+visibility:hidden;
+}
+
+footer{
+visibility:hidden;
+}
+
+header{
+visibility:hidden;
+}
+
+/* Hero */
+
+.hero{
+
+background:linear-gradient(135deg,#2563EB,#7C3AED);
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+margin-bottom:25px;
+
+}
+
+.hero h1{
+
+color:white;
+
+font-size:48px;
+
+margin:0;
+
+}
+
+.hero p{
+
+color:#E2E8F0;
+
+font-size:20px;
+
+}
+
+/* Cards */
+
+.card{
+
+background:#1E293B;
+
+padding:20px;
+
+border-radius:18px;
+
+border:1px solid #334155;
+
+transition:.3s;
+
+box-shadow:0 8px 25px rgba(0,0,0,.25);
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+border-color:#3B82F6;
+
+}
+
+/* Titles */
+
+.section{
+
+font-size:28px;
+
+font-weight:600;
+
+margin-top:20px;
+
+margin-bottom:15px;
+
+color:white;
+
+}
+
+/* Skill Badge */
+
+.badge{
+
+display:inline-block;
+
+background:#2563EB;
+
+padding:8px 15px;
+
+margin:5px;
+
+border-radius:30px;
+
+font-weight:500;
+
+}
+
+/* Resume Box */
+
+.resume{
+
+background:#111827;
+
+padding:20px;
+
+border-radius:15px;
+
+height:550px;
+
+overflow:auto;
+
+white-space:pre-wrap;
+
+border:1px solid #334155;
+
+}
+
+/* ===========================
+   Premium Metric Cards
+=========================== */
+
+.metric-card{
+    background:#1E293B;
+    border:1px solid #334155;
+    border-radius:18px;
+    padding:22px;
+    text-align:center;
+    transition:0.35s;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+}
+
+.metric-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(59,130,246,.35);
+    border-color:#3B82F6;
+}
+
+.metric-icon{
+    width:60px;
+    height:60px;
+    margin:auto;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    color:white;
+    margin-bottom:15px;
+}
+
+.metric-title{
+    color:#CBD5E1;
+    font-size:18px;
+    font-weight:500;
+}
+
+.metric-value{
+    color:white;
+    font-size:42px;
+    font-weight:700;
+    margin-top:10px;
+}
+
+/* ==========================
+   Sidebar Styling
+========================== */
+
+section[data-testid="stSidebar"]{
+    background: #0F172A;
+    border-right: 2px solid #3B82F6;
+}
+
+section[data-testid="stSidebar"] *{
+    color: white !important;
+}
+
+/* Navigation buttons */
+section[data-testid="stSidebar"] button{
+    border-radius: 12px;
+    margin-bottom: 8px;
+    transition: all .3s ease;
+}
+
+section[data-testid="stSidebar"] button:hover{
+    background: #2563EB !important;
+    transform: translateX(5px);
+}
